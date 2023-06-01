@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #de2f56;
+}
+h1{
+  user-select:none;
+}
+
+.container {
+  border: 5px solid black;
+  min-height: 100vh;
+  height: min-content;
+  width: 100%;
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  flex-wrap: wrap;
+
+}
+
+.boxStyling {
+  border: 5px solid black;
+  width: 700px;
+  min-width: min-content;
+  background: white;
+  border-radius: 40px;
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+  min-width: min-content;
+  padding: 20px;
+  height: min-content;
+
+
+}
+
+
